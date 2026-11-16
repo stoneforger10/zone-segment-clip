@@ -1,0 +1,234 @@
+{
+  "network": "StudioNet",
+  "source_commit": "c50579ac1d813b38b06d1ae32e289a99be34f156",
+  "transactions": [
+    {
+      "step": "deploy",
+      "args": [
+        "deploy",
+        "--contract",
+        "contracts/ZoneSegmentClip.py"
+      ],
+      "signer": "0x7a413BB4AB62E31d62d4cD9efC8C8a8Dae37FB42",
+      "nonce": "0x1f3",
+      "hash": "0x9ed523d32a445f205adfd0dfa58f068a580295c380a22b07e6e375e0c23af290",
+      "receipt": {
+        "hash": "0x9ed523d32a445f205adfd0dfa58f068a580295c380a22b07e6e375e0c23af290",
+        "address": "0x99879b0A9D044c8023584f8323A87CC55301f2E7",
+        "status": "FINALIZED",
+        "execution": "SUCCESS",
+        "consensus": "MAJORITY_AGREE",
+        "committed": true,
+        "leader_only": false,
+        "initial_validators": 5,
+        "agree_votes": 3,
+        "idle_votes": 2,
+        "disagree_votes": 0,
+        "validator_execution_seen": true
+      }
+    },
+    {
+      "step": "traverse",
+      "args": [
+        "write",
+        "0x99879b0A9D044c8023584f8323A87CC55301f2E7",
+        "clip",
+        "--args",
+        "CAZ006",
+        "[[-124000000,37770001],[-122000000,37770001]]"
+      ],
+      "signer": "0x7a413BB4AB62E31d62d4cD9efC8C8a8Dae37FB42",
+      "nonce": "0x1f4",
+      "hash": "0xb400f7237c529c5b4ecdc467b0bda393ac7bec07cc3e995a540d7fa00dbecd29",
+      "receipt": {
+        "hash": "0xb400f7237c529c5b4ecdc467b0bda393ac7bec07cc3e995a540d7fa00dbecd29",
+        "address": "0x99879b0A9D044c8023584f8323A87CC55301f2E7",
+        "status": "FINALIZED",
+        "execution": "SUCCESS",
+        "consensus": "MAJORITY_AGREE",
+        "committed": true,
+        "leader_only": false,
+        "initial_validators": 5,
+        "agree_votes": 3,
+        "idle_votes": 2,
+        "disagree_votes": 0,
+        "validator_execution_seen": true
+      }
+    },
+    {
+      "step": "outside",
+      "args": [
+        "write",
+        "0x99879b0A9D044c8023584f8323A87CC55301f2E7",
+        "clip",
+        "--args",
+        "CAZ006",
+        "[[-124000000,39000001],[-122000000,39000001]]"
+      ],
+      "signer": "0x7a413BB4AB62E31d62d4cD9efC8C8a8Dae37FB42",
+      "nonce": "0x1f5",
+      "hash": "0x06014d0eec4699c932e934916d6b1d9df1658e65af6351407fcfa04e612b6b0f",
+      "receipt": {
+        "hash": "0x06014d0eec4699c932e934916d6b1d9df1658e65af6351407fcfa04e612b6b0f",
+        "address": "0x99879b0A9D044c8023584f8323A87CC55301f2E7",
+        "status": "FINALIZED",
+        "execution": "SUCCESS",
+        "consensus": "MAJORITY_AGREE",
+        "committed": true,
+        "leader_only": false,
+        "initial_validators": 5,
+        "agree_votes": 3,
+        "idle_votes": 2,
+        "disagree_votes": 0,
+        "validator_execution_seen": true
+      }
+    },
+    {
+      "step": "boundary",
+      "args": [
+        "write",
+        "0x99879b0A9D044c8023584f8323A87CC55301f2E7",
+        "clip",
+        "--args",
+        "CAZ006",
+        "[[-123003601,37693249],[-123004089,37693066]]"
+      ],
+      "signer": "0x7a413BB4AB62E31d62d4cD9efC8C8a8Dae37FB42",
+      "nonce": "0x1f6",
+      "hash": "0xde3bb9310b06ff2deb7930dc8f5803501075cbe760e308ea654cd1437142bec4",
+      "receipt": {
+        "hash": "0xde3bb9310b06ff2deb7930dc8f5803501075cbe760e308ea654cd1437142bec4",
+        "address": "0x99879b0A9D044c8023584f8323A87CC55301f2E7",
+        "status": "FINALIZED",
+        "execution": "SUCCESS",
+        "consensus": "MAJORITY_AGREE",
+        "committed": true,
+        "leader_only": false,
+        "initial_validators": 5,
+        "agree_votes": 3,
+        "idle_votes": 2,
+        "disagree_votes": 0,
+        "validator_execution_seen": true
+      }
+    }
+  ],
+  "address": "0x99879b0A9D044c8023584f8323A87CC55301f2E7",
+  "source": {
+    "address": "0x99879b0A9D044c8023584f8323A87CC55301f2E7",
+    "source_match": true,
+    "sha256": "11f0ef50719a767d9347229cae7d6a430635bd735b482da7442ba8608f0476ae"
+  },
+  "cases": {
+    "traverse": {
+      "id": "636fa7cc0049b66ae9cb69948f745d3f8a50668234f5d68d5940605403fd9b84",
+      "report": {
+        "contacts": [
+          "27528879/37000000",
+          "2097152681/2598000000",
+          "1614503/2000000",
+          "1616203/2000000"
+        ],
+        "geometry_sha256": "09e97a7a3d8a7c5f11274b965e692824600f826f81ef6623aefac91b3ea32931",
+        "inside_fraction": "1231265731/19225200000",
+        "runs": [
+          [
+            "0/1",
+            "27528879/37000000",
+            "outside"
+          ],
+          [
+            "27528879/37000000",
+            "2097152681/2598000000",
+            "inside"
+          ],
+          [
+            "2097152681/2598000000",
+            "1614503/2000000",
+            "outside"
+          ],
+          [
+            "1614503/2000000",
+            "1616203/2000000",
+            "inside"
+          ],
+          [
+            "1616203/2000000",
+            "1/1",
+            "outside"
+          ]
+        ],
+        "segment_microdegrees": [
+          [
+            -124000000,
+            37770001
+          ],
+          [
+            -122000000,
+            37770001
+          ]
+        ],
+        "source_url": "https://api.weather.gov/zones/forecast/CAZ006",
+        "zone": "CAZ006"
+      }
+    },
+    "outside": {
+      "id": "ba2bd020a0ec92770c0dcbb69d5ca27871768386eded9e70ec483a26db472502",
+      "report": {
+        "contacts": [],
+        "geometry_sha256": "09e97a7a3d8a7c5f11274b965e692824600f826f81ef6623aefac91b3ea32931",
+        "inside_fraction": "0/1",
+        "runs": [
+          [
+            "0/1",
+            "1/1",
+            "outside"
+          ]
+        ],
+        "segment_microdegrees": [
+          [
+            -124000000,
+            39000001
+          ],
+          [
+            -122000000,
+            39000001
+          ]
+        ],
+        "source_url": "https://api.weather.gov/zones/forecast/CAZ006",
+        "zone": "CAZ006"
+      }
+    },
+    "boundary": {
+      "id": "a928c89605ae07a324cfc0a97b2face86c00c786753608dd24187a3214829785",
+      "report": {
+        "contacts": [
+          "0/1",
+          "1/1"
+        ],
+        "geometry_sha256": "09e97a7a3d8a7c5f11274b965e692824600f826f81ef6623aefac91b3ea32931",
+        "inside_fraction": "0/1",
+        "runs": [
+          [
+            "0/1",
+            "1/1",
+            "boundary"
+          ]
+        ],
+        "segment_microdegrees": [
+          [
+            -123003601,
+            37693249
+          ],
+          [
+            -123004089,
+            37693066
+          ]
+        ],
+        "source_url": "https://api.weather.gov/zones/forecast/CAZ006",
+        "zone": "CAZ006"
+      }
+    }
+  },
+  "unknown_clip_reverted": true,
+  "verified": true
+}

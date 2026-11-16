@@ -4,6 +4,8 @@ ZoneSegmentClip splits a straight longitude and latitude segment into
 intervals inside, outside, and along a U.S. National Weather Service forecast
 zone. This is useful for annotating segments with forecast coverage.
 
+[StudioNet proof matrix](LIVE_PROOFS.md) · [Submission text](SUBMISSION.md)
+
 Call `clip(zone, [[longitude, latitude], [longitude, latitude]])` with signed
 integer microdegrees. The leader and every validator independently fetch the
 zone's GeoJSON. They verify the feature identity and parse the polygon rings
