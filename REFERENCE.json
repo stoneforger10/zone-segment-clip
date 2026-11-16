@@ -1,0 +1,105 @@
+{
+  "source_body_sha256": "2a44eada2df51c8599d4766e6658650b6782c8f88be31cd2f09610440be28a5b",
+  "cases": {
+    "traverse": {
+      "zone": "CAZ006",
+      "source_url": "https://api.weather.gov/zones/forecast/CAZ006",
+      "geometry_sha256": "09e97a7a3d8a7c5f11274b965e692824600f826f81ef6623aefac91b3ea32931",
+      "segment_microdegrees": [
+        [
+          -124000000,
+          37770001
+        ],
+        [
+          -122000000,
+          37770001
+        ]
+      ],
+      "runs": [
+        [
+          "0/1",
+          "27528879/37000000",
+          "outside"
+        ],
+        [
+          "27528879/37000000",
+          "2097152681/2598000000",
+          "inside"
+        ],
+        [
+          "2097152681/2598000000",
+          "1614503/2000000",
+          "outside"
+        ],
+        [
+          "1614503/2000000",
+          "1616203/2000000",
+          "inside"
+        ],
+        [
+          "1616203/2000000",
+          "1/1",
+          "outside"
+        ]
+      ],
+      "contacts": [
+        "27528879/37000000",
+        "2097152681/2598000000",
+        "1614503/2000000",
+        "1616203/2000000"
+      ],
+      "inside_fraction": "1231265731/19225200000"
+    },
+    "outside": {
+      "zone": "CAZ006",
+      "source_url": "https://api.weather.gov/zones/forecast/CAZ006",
+      "geometry_sha256": "09e97a7a3d8a7c5f11274b965e692824600f826f81ef6623aefac91b3ea32931",
+      "segment_microdegrees": [
+        [
+          -124000000,
+          39000001
+        ],
+        [
+          -122000000,
+          39000001
+        ]
+      ],
+      "runs": [
+        [
+          "0/1",
+          "1/1",
+          "outside"
+        ]
+      ],
+      "contacts": [],
+      "inside_fraction": "0/1"
+    },
+    "boundary": {
+      "zone": "CAZ006",
+      "source_url": "https://api.weather.gov/zones/forecast/CAZ006",
+      "geometry_sha256": "09e97a7a3d8a7c5f11274b965e692824600f826f81ef6623aefac91b3ea32931",
+      "segment_microdegrees": [
+        [
+          -123003601,
+          37693249
+        ],
+        [
+          -123004089,
+          37693066
+        ]
+      ],
+      "runs": [
+        [
+          "0/1",
+          "1/1",
+          "boundary"
+        ]
+      ],
+      "contacts": [
+        "0/1",
+        "1/1"
+      ],
+      "inside_fraction": "0/1"
+    }
+  }
+}
